@@ -3,7 +3,7 @@ app = express();
 app.use(express.json());
 
 const mongoose = require('mongoose');
-mongoose.connect("mongodb+srv://gargrohan138:Sandstorm_753@cluster0.fmkey.mongodb.net/randon_name?retryWrites=true&w=majority&appName=Cluster0");
+mongoose.connect("mongodb+srv://gargrohan138:<db_password>@cluster0.fmkey.mongodb.net/randon_name?retryWrites=true&w=majority&appName=Cluster0");
 const User = mongoose.model('User', {name: String, email: String, password: String});
 const SuperUser = mongoose.model('SuperUser', {colder: [{
     type: mongoose.Schema.Types.ObjectId,
