@@ -27,4 +27,4 @@ So, this server is not a truly server learning exercise, but database querying l
 
 ---
 ### [JWT Server](https://github.com/Sandstorm831/learning-backend/tree/main/jwtServer)
-JWT Authorization, took some to wrap my head around it, about why the hell is it needed, why can't user id and passwords are exchanged, what it does, saves 1 db call for every different routing, the safety it ensures and puts the Server in the ultimate control are some of the cool things I came to learn after studying and implementing JSON Web Tokens. So basically implemented two routes, one for signing-in , leading to jwt.sign() and one for any normal get route, testing the jwt.verify().
+JWT Authorization, took some time to wrap my head around it, about why the hell is it needed, why can't user id and passwords are exchanged, what it does, saves 1 db call for every different routing, the safety it ensures and puts the Server in the ultimate control are some of the cool things I came to learn after studying and implementing JSON Web Tokens. So basically implemented two routes, one for signing-in , leading to jwt.sign() and one for any normal get route, testing the jwt.verify().
