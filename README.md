@@ -34,5 +34,7 @@ JWT Authorization, took some time to wrap my head around it, about why the hell 
 ### [ToDo App](https://github.com/Sandstorm831/learning-backend/tree/main/toDoApp)
 I know what you will say, In the name of backend-learning you have 2 todo apps on this repo out of 6, how does it make sense ? Well, it does, as it is a complete todo-application along with front-end (*So we'll also be having images*). In this, anyone can create a To-Do, Mark the to-do Done, Delete the Todo. Have used express as backend server, MongoDB as the database, Mongoose as the schema enforcer, React as frontend TailWindCSS for designing. So yes, it can be called as a full-stack project, a very-very basic full-stack project.
 
-![todo_fullstack1](https://github.com/user-attachments/assets/e24d6210-062d-4271-807f-3f8b8dff25b0)
+[![ViewLiveDemo](/images/ViewLiveDemo.png)](https://portfoliodeployements.vercel.app/todoapp)
+
+![todo_fullstack1](images/todo_fullstack1.png)
 
